@@ -1,0 +1,11 @@
+{
+  "routes": [
+    "/allprojects",
+    "/contact",
+    "/home",
+    "/resume",
+    "/resume/education",
+    "/resume/experience",
+    "/resume/skills"
+  ]
+}

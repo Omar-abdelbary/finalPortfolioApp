@@ -1,0 +1,317 @@
+.contact-info {
+  width: 100%;
+  min-height: 79vh;
+  background-color: #24262a;
+  overflow: hidden !important;
+}
+
+.contact-info .contact-info-head {
+  width: 100%;
+  height: auto;
+}
+
+.contact-info .contact-info-head h5 {
+  text-align: center !important;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 40px !important;
+  margin-bottom: 30px !important;
+  color: #fff;
+  position: relative !important;
+  padding-bottom: 12px; /* مساحة للخط */
+}
+.contact-info .contact-info-head h5::after {
+  content: "";
+  position: absolute;
+  left: 600px !important;
+  bottom: 0;
+  height: 3px;
+  width: 10%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100, 216, 200, 0) 100%
+  );
+  border-radius: 2px;
+}
+.contact-info .contact-info-head h5 span {
+  color: #64d8c8;
+}
+
+.contact-info .contact-about {
+  width: 100%;
+  height: auto;
+  margin-top: 20px !important;
+  color: wheat !important;
+
+}
+
+/* .contact-info .contact-about .contact-about-me {
+  text-align: center !important;
+} */
+
+
+.contact-info .contact-about .contact-about-me p {
+  color: #64d8c8 ;
+  font-size: 20px ;
+  text-decoration: underline;
+  padding-left: 170px !important;
+  margin-bottom: 15px !important;
+  margin-top: 50px !important;
+}
+
+.contact-info .contact-about .contact-about-me .email-info {
+  width: 50%;
+  display: flex;
+  flex-wrap: nowrap !important;
+  margin: auto !important;
+}
+
+.contact-info .contact-about .contact-about-me .email-info i {
+  color: #fff;
+  font-size: 23px !important;
+  margin-top: 8px !important;
+}
+
+.contact-info .contact-about .contact-about-me .email-info p {
+  font-size: 16px !important;
+  text-decoration: none !important;
+  text-align: start !important ;
+  padding-left: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 3px !important;
+  margin-top: 0px !important;
+}
+
+/* phone */
+
+.contact-info .contact-about .contact-about-me .phone-info {
+  width: 50%;
+  display: flex;
+  flex-wrap: nowrap !important;
+  margin: auto !important;
+  border-top: 2px dotted #64d8c8;
+}
+
+.contact-info .contact-about .contact-about-me .phone-info i {
+  color: #fff;
+  font-size: 23px !important;
+  margin-top: 8px !important;
+}
+
+.contact-info .contact-about .contact-about-me .phone p {
+  font-size: 16px !important;
+  text-decoration: none !important;
+  text-align: start !important ;
+  padding-left: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 3px !important;
+  margin-top: 0px !important;
+}
+
+
+/* contact me */
+
+.contact-info .contact-about .contact-about-me .connect-me {
+   width: 50%;
+  /* display: flex; */
+  flex-wrap: nowrap !important;
+  margin: auto !important;
+  border-top: 2px dotted #64d8c8;
+}
+
+.contact-info .contact-about .contact-about-me .connect-me p {
+    font-size: 16px !important;
+  text-decoration: none !important;
+  text-align: start !important ;
+  padding-left: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 3px !important;
+  margin-top: 3px !important;
+}
+.contact-info .contact-about  .connect-me a {
+  background-color: none !important;
+}
+.contact-info .contact-about  .connect-me  i {
+  font-size: 30px !important;
+  margin-top: 10px !important;
+  cursor: pointer;
+  background-color: rgba(100, 216, 200, .2) !important;
+  margin-right: 6px !important;
+
+}
+
+
+/* form  */
+
+
+.contact-info .contact-about .form-info {
+   background-color: rgba(100, 216, 200, .2) !important;
+   border-radius: 20px !important;
+   width: 98% !important;
+   height: auto !important;
+   margin: auto !important;
+   margin-bottom: 20px !important;
+   margin-top: 10px !important;
+}
+.contact-info .contact-about .form-info .form-head {
+  width: 100%;
+  height: auto;
+  text-align: center !important;
+
+}
+.contact-info .contact-about .form-info  .form-head p {
+  padding-top: 15px !important;
+  text-decoration: underline !important;
+  font-size: 22px !important;
+  color: #64d8c8 !important;
+  margin-bottom: 10px !important;
+}
+
+.contact-info .contact-about .form-info .contact-form {
+  width: 100%;
+  height: auto;
+
+}
+
+.contact-info .contact-about .form-info .contact-form label {
+  padding-left: 22px !important;
+  color: #64d8c8;
+  font-size: 18px !important;
+  margin-bottom: 8px !important;
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}
+
+.contact-info .contact-about .form-info .contact-form .form-control {
+  width: 90%;
+  height: auto;
+  margin-left: 15px !important;
+  margin-bottom: 10px !important;
+  padding: 6px !important;
+  background-color: rgb(50, 59, 63) !important;
+  color: white !important;
+}
+.contact-info .contact-about .form-info .contact-form .form-control::placeholder {
+  color: white !important;
+}
+
+.contact-info .contact-about .form-info .contact-form .btn {
+  margin-bottom: 50px !important;
+  margin-top: 20px !important;
+  width: 25%;
+  height: auto;
+  padding: 5px !important;
+  margin-left: 15px !important;
+}
+
+
+
+
+@media (max-width:767px) {
+
+  .contact-info .contact-info-head h5::after {
+  content: "";
+  position: absolute;
+  left: 110px !important;
+  bottom: 0;
+  height: 3px;
+  width: 35%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100, 216, 200, 0) 100%
+  );
+  border-radius: 2px;
+}
+  .contact-info .contact-about .form-info .contact-form .btn {
+  margin-bottom: 50px !important;
+  margin-top: 20px !important;
+  width: 40%;
+  height: auto;
+  padding: 8px !important;
+  margin-left: 15px !important;
+}
+
+.contact-info .contact-about .contact-about-me p {
+  text-align: center !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+
+.contact-info .contact-about .contact-about-me .email-info i , .phone-info  i , .connect-me p {
+  margin-left: 20px !important;
+  font-size: 16px !important;
+}
+
+.contact-info .contact-about .contact-about-me  .connect-me p {
+  margin-left: 20px !important;
+}
+.contact-info .contact-about .contact-about-me  .connect-me i {
+  margin-left: 10px !important;
+  margin-bottom: 10px !important;
+}
+.contact-info .contact-about .contact-about-me .email-info, .phone-info , .connect-me {
+  width: 100% !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  margin: auto !important;
+  margin-bottom: 15px !important;
+}
+
+}
+
+
+
+@media (min-width:768px)and (max-width:1023px) {
+
+    .contact-info .contact-info-head h5::after {
+  content: "";
+  position: absolute;
+  left: 110px !important;
+  bottom: 0;
+  height: 3px;
+  width: 35%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100, 216, 200, 0) 100%
+  );
+  border-radius: 2px;
+}
+
+
+  .contact-info {
+  width: 100%;
+  min-height: 88vh !important;
+  background-color: #24262a;
+  overflow: hidden !important;
+}
+
+
+.contact-info .contact-about .contact-about-me .email-info i , .phone-info  i , .connect-me p {
+  margin-left: 20px !important;
+  font-size: 16px !important;
+}
+
+.contact-info .contact-about .contact-about-me  .connect-me p {
+  margin-left: 20px !important;
+}
+.contact-info .contact-about .contact-about-me  .connect-me i {
+  margin-left: 10px !important;
+  margin-bottom: 10px !important;
+}
+.contact-info .contact-about .contact-about-me .email-info, .phone-info , .connect-me {
+  width: 100% !important;
+  display: flex;
+  flex-wrap: nowrap !important;
+  margin: auto !important;
+  margin-bottom: 15px !important;
+}
+
+
+}

@@ -1,0 +1,23 @@
+
+
+.end-content {
+  width: 100%;
+  height: auto;
+background-color: #2f3338;
+}
+
+.end-content .end-content-info {
+  width: 100%;
+  height: auto;
+  text-align: center;
+
+}
+
+.end-content .end-content-info h6 {
+  color: #fff;
+  padding-top: 15px !important;
+  padding-bottom: 20px !important;
+  font-size: 20px;
+  font-weight: bold;
+
+}

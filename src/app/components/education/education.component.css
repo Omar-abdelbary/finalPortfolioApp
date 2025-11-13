@@ -1,0 +1,107 @@
+.eduction-info {
+  width: 100%;
+  min-height: 77.5vh;
+  overflow: hidden !important;
+  margin-bottom: 25px !important;
+}
+
+.eduction-info .eduction-info-head {
+  width: 100%;
+  height: auto;
+
+}
+
+.eduction-info .eduction-info-head h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 70px !important;
+  padding-left: 50px !important;
+  margin-bottom: 30px !important;
+  color: #fff ;
+   position: relative;
+  padding-bottom: 12px; /* مساحة للخط */
+}
+
+.eduction-info .eduction-info-head h3::after {
+    content: "";
+  position: absolute;
+  left: 50px !important;
+  bottom: 0;
+  height: 3px;               /* سمك الخط */
+  width: 15%;                /* طول الخط بالنسبة للعنوان/البلوك */
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100,216,200,0) 100%
+  );
+  border-radius: 2px;
+}
+.eduction-info .eduction-info-head h3 span {
+  color: #64d8c8;
+}
+.eduction-info .eduction-about {
+  width: 80%;
+  height: auto;
+  background-color: rgb(52, 68, 70);
+  margin-left: 50px !important;
+  border-radius: 20px !important;
+  border-left: 2px solid #64d8c8 !important;
+  /* padding-left: 1px !important; */
+}
+
+
+.eduction-info .eduction-about .eduction-about-head {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+}
+
+
+.eduction-info .eduction-about .eduction-about-head h5 {
+  padding-top: 25px !important;
+  padding-left: 15px !important;
+  color: #fff;
+  margin-bottom: 10px !important;
+  font-size: 22px !important;
+}
+
+.eduction-info .eduction-about .eduction-about-head p {
+  padding-top: 25px !important;
+  padding-right: 15px !important;
+  color: #64d8c8 ;
+}
+
+.eduction-info .eduction-about p {
+  color: #64d8c8;
+  padding-left: 15px !important;
+  font-size: 18px;
+  padding-bottom: 30px !important;
+}
+
+
+
+
+@media (max-width:767px) {
+
+  .eduction-info .eduction-about  {
+    width: 98% !important;
+    height: auto;
+    margin-left: 1px !important;
+  }
+
+}
+
+
+@media (min-width:768px)and (max-width:1023px) {
+
+
+   .eduction-info .eduction-about {
+    width: 100% !important;
+    height: auto;
+    margin-left: 50px !important;
+  }
+
+}

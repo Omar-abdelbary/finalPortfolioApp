@@ -1,0 +1,86 @@
+<section class="contact-info">
+  <div class="container-fluid">
+
+
+
+    <div class="contact-info-head">
+      <h5> <span>Get</span> In Touch</h5>
+    </div>
+
+
+
+    <div class="contact-about">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 col-md-12 order-lg-1 order-2">
+          <div class="contact-about-me">
+            <p>Contact Details</p>
+            <div class="email-info">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="email">
+                <p>Email</p>
+                <p>omarabdelbary124&#64;gmail.com</p>
+              </div>
+            </div>
+
+            <div class="phone-info">
+              <i class="fa-solid fa-phone"></i>
+              <div class="phone">
+                <p>phone</p>
+                <p>+201554535132</p>
+              </div>
+            </div>
+
+            <div class="connect-me">
+              <p>Connect With Me</p>
+
+              <a aria-label="linked in"
+                href="https://www.linkedin.com/in/omar-waheed-abdelbary-939a9b248?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                  class="fa-brands fa-square-linkedin"></i></a>
+
+
+              <a aria-label="github" href="https://github.com/Omar-abdelbary"> <i
+                  class="fa-brands fa-square-github"></i></a>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-lg-6 col-sm-12 col-md-12 order-lg-2  order-1">
+          <div class="form-info">
+
+            <div class="form-head">
+              <p>Send a Message</p>
+            </div>
+
+
+
+            <form id="contactForm" class="contact-form" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" formControlName="email" class="form-control" id="email" name="email" required
+                  placeholder="Enter your email" />
+              </div>
+
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" formControlName="message" class="form-control" name="message" rows="4" required
+                  placeholder="Write your message here..."></textarea>
+              </div>
+
+              <button type="submit" class="send-btn btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+</section>

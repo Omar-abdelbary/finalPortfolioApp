@@ -1,0 +1,392 @@
+
+.skills-info {
+  width: 100%;
+  min-height: 100vh !important;
+
+}
+
+.skills-info .skills-info-head {
+  width: 100%;
+  height: auto;
+}
+
+.skills-info .skills-info-head h3 {
+    font-size: 30px;
+  font-weight: bold;
+  padding-top: 70px !important;
+  padding-left: 50px !important;
+  margin-bottom: 30px !important;
+  color: #fff ;
+   position: relative;
+  padding-bottom: 12px;
+}
+
+.skills-info .skills-info-head h3::after {
+    content: "";
+  position: absolute;
+  left: 50px !important;
+  bottom: 0;
+  height: 3px;
+  width: 15%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100,216,200,0) 100%
+  );
+  border-radius: 2px;
+}
+
+
+.skills-info .core-stack-info {
+  width: 100%;
+  height: auto;
+
+}
+
+.skills-info .core-stack-info h3 {
+     font-size: 20px;
+  font-weight: bold;
+  padding-left: 50px !important;
+  margin-bottom: 20px !important;
+  color: #64d8c8 ;
+   position: relative;
+  padding-bottom: 12px;
+}
+
+.skills-info .core-stack-info h3::after {
+    content: "";
+  position: absolute;
+  left: 50px !important;
+  bottom: 0;
+  height: 3px;
+  width: 15%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100,216,200,0) 100%
+  );
+  border-radius: 2px;
+}
+
+
+
+.skills-info .core-stack-info .core-stack-list {
+  width: 100%;
+  height: auto;
+}
+
+.skills-info .core-stack-info .core-stack-list .img-list {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: nowrap !important;
+
+}
+
+
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid {
+  width: 15%;
+  height: auto;
+  background-color: rgba(100, 216, 200, .15);
+  border: 1px solid #64d8c8;
+  border-radius: 20px ;
+  cursor: pointer;
+  padding: 3px !important;
+  animation: floaty 3s ease-in-out infinite alternate;
+}
+
+/* هنا بقى ندي لكل صورة تأخير مختلف */
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid:nth-child(1) {
+  animation-delay: 0s;
+}
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid:nth-child(3) {
+  animation-delay: 1s;
+}
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid:nth-child(4) {
+  animation-delay: 1.5s;
+}
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid:nth-child(5) {
+  animation-delay: 2s;
+}
+
+@keyframes floaty {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); } /* تطلع شوية لفوق */
+  100% { transform: translateY(8px); }   /* تنزل تاني لتحت */
+}
+
+
+/* web tech */
+
+
+.skills-info .web-technology {
+  width: 100%;
+  height: auto;
+}
+
+.skills-info .web-technology h5 {
+     font-size: 25px;
+  font-weight: bold;
+  padding-left: 50px !important;
+  margin-bottom: 20px !important;
+  color: #64d8c8 ;
+   position: relative;
+  padding-bottom: 12px;
+  margin-top: 35px !important;
+}
+
+.skills-info .web-technology h5::after {
+    content: "";
+  position: absolute;
+  left: 50px !important;
+  bottom: 0;
+  height: 3px;
+  width: 15%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100,216,200,0) 100%
+  );
+  border-radius: 2px;
+}
+
+
+
+.skills-info .core-stack-info .web-list {
+  width: 100%;
+  height: auto;
+}
+
+.skills-info .web-technology .web-list .img-list {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: nowrap !important;
+
+}
+
+
+.skills-info .web-technology .web-list .img-list .img-fluid {
+  width: 15%;
+  height: auto;
+  background-color: rgba(100, 216, 200, .15);
+  border: 1px solid #64d8c8;
+  border-radius: 20px ;
+  cursor: pointer;
+  padding: 3px !important;
+  margin-top: 10px !important;
+  animation: floaty 3s ease-in-out infinite alternate;
+}
+
+/* هنا بقى ندي لكل صورة تأخير مختلف */
+.skills-info .web-technology .web-list .img-list .img-fluid:nth-child(1) {
+  animation-delay: 0s;
+}
+.skills-info .web-technology .web-list .img-list .img-fluid:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.skills-info .web-technology .web-list .img-list .img-fluid:nth-child(3) {
+  animation-delay: 1s;
+}
+
+
+@keyframes floaty {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); } /* تطلع شوية لفوق */
+  100% { transform: translateY(8px); }   /* تنزل تاني لتحت */
+}
+
+
+
+
+/* dev tools  */
+
+
+
+
+.skills-info .dev-tools {
+  width: 100%;
+  height: auto;
+}
+
+.skills-info .dev-tools h5 {
+     font-size: 25px;
+  font-weight: bold;
+  padding-left: 50px !important;
+  margin-bottom: 20px !important;
+  color: #64d8c8 ;
+   position: relative;
+  padding-bottom: 12px;
+  margin-top: 35px !important;
+}
+
+.skills-info .dev-tools h5::after {
+    content: "";
+  position: absolute;
+  left: 50px !important;
+  bottom: 0;
+  height: 3px;
+  width: 22%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100,216,200,0) 100%
+  );
+  border-radius: 2px;
+}
+
+
+
+.skills-info .dev-tools .dev-tools-list {
+  width: 100%;
+  height: auto;
+}
+
+.skills-info .dev-tools .dev-tools-list .img-list {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: nowrap !important;
+
+}
+
+
+.skills-info .dev-tools .dev-tools-list .img-fluid {
+  width: 15%;
+  height: auto;
+  background-color: rgba(100, 216, 200, .15);
+  border: 1px solid #64d8c8;
+  border-radius: 20px ;
+  cursor: pointer;
+  padding: 3px !important;
+  margin-top: 10px !important;
+  animation: floaty 3s ease-in-out infinite alternate;
+}
+
+/* هنا بقى ندي لكل صورة تأخير مختلف */
+.skills-info .dev-tools .dev-tools-list .img-fluid:nth-child(1) {
+  animation-delay: 0s;
+}
+.skills-info .dev-tools .dev-tools-list .img-fluid:nth-child(2) {
+  animation-delay: 0.5s;
+}
+.skills-info .dev-tools .dev-tools-list .img-fluid:nth-child(3) {
+  animation-delay: 1s;
+}
+.skills-info .dev-tools .dev-tools-list .img-fluid:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+
+/* @keyframes floaty {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(8px); }
+} */
+
+
+
+/* responsive for mobiles */
+@media (max-width:767px) {
+
+
+  .skills-info {
+    min-height: 100vh  !important;
+    /* padding-bottom: 500px !important; */
+  }
+
+  .skills-info .core-stack-info .core-stack-list .img-list {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap !important;
+
+}
+
+
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid {
+  width: 40%;
+  height: auto;
+  background-color: rgba(100, 216, 200, .15);
+  border: 1px solid #64d8c8;
+  border-radius: 20px ;
+  cursor: pointer;
+  padding: 3px !important;
+  margin-bottom: 20px !important;
+  animation: floaty 3s ease-in-out infinite alternate;
+}
+.skills-info .core-stack-info .core-stack-list .img-list .img-fluid:nth-child(5) {
+  animation-delay: 2s;
+  margin-right: 183px !important;
+}
+
+
+
+  .skills-info .web-technology .web-list .img-list {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap !important;
+
+}
+
+.skills-info .web-technology .web-list .img-list .img-fluid {
+  width: 40%;
+  height: auto;
+  background-color: rgba(100, 216, 200, .15);
+  border: 1px solid #64d8c8;
+  border-radius: 20px ;
+  cursor: pointer;
+  padding: 3px !important;
+  margin-bottom: 20px !important;
+  animation: floaty 3s ease-in-out infinite alternate;
+}
+.skills-info .web-technology .web-list .img-list .img-fluid:nth-child(3) {
+  animation-delay: 2s;
+  margin-right: 183px !important;
+}
+
+
+
+
+
+  .skills-info .dev-tools .dev-tools-list .img-list {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-around;
+  flex-wrap: wrap !important;
+
+}
+
+.skills-info .dev-tools .dev-tools-list .img-list .img-fluid {
+  width: 40%;
+  height: auto;
+  background-color: rgba(100, 216, 200, .15);
+  border: 1px solid #64d8c8;
+  border-radius: 20px ;
+  cursor: pointer;
+  padding: 3px !important;
+  margin-bottom: 20px !important;
+  animation: floaty 3s ease-in-out infinite alternate;
+}
+/* .skills-info .dev-tools .dev-tools-list .img-list .img-fluid:nth-child(3) {
+  animation-delay: 2s;
+  margin-right: 183px !important;
+} */
+
+
+
+}
