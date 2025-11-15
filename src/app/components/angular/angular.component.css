@@ -48,11 +48,12 @@
 
 .angular-projects .project-info .project-details .list {
   display: flex !important;
-  flex-wrap: nowrap !important;
+  flex-wrap: wrap !important;
   list-style-type: none ;
   margin-bottom: 30px !important;
 
 }
+
 
 .angular-projects .project-info .project-details .list li a {
   background-color: rgb(67, 177, 157);
@@ -73,3 +74,12 @@
   border-radius: 20px !important;
 }
 
+
+
+@media (max-width:767px) {
+
+  .angular-projects .project-info .project-details .list li a {
+  margin-bottom: 20px !important;
+}
+
+}
