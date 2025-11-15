@@ -30,8 +30,19 @@
   text-decoration: none !important;
   font-size: 20px;
   color: #fff;
+  padding: 20px !important;
 }
 
 .resume-info .routing-components {
   height: auto !important;
+}
+
+
+@media (max-width:767px) {
+  .resume-info .list ul {
+
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
 }

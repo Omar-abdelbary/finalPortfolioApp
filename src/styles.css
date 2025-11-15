@@ -10,6 +10,7 @@
   margin: 0px !important;
   box-sizing: border-box !important;
 font-family: "Reem Kufi Fun", sans-serif;
+scroll-behavior: smooth !important;
 }
 
 
@@ -20,6 +21,13 @@ font-family: "Reem Kufi Fun", sans-serif;
   color: #64d8c8 !important;
   /* border: 1px solid #64d8c8; */
   border-radius: 20px;
+}
+
+/* active-list */
+
+.active-list {
+
+  background-color: #43b19d !important;
 }
 
 

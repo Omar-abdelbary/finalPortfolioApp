@@ -1,0 +1,125 @@
+.allprojects-info {
+  width: 100%;
+  height: auto;
+  min-height: 100vh !important;
+  background-color: #24262a;
+}
+
+.allprojects-info .allproject-info-head {
+  width: 100%;
+  height: auto;
+}
+
+.allprojects-info .allproject-info-head h6 {
+  text-align: center;
+  color: #64d8c8;
+  font-size: 25px !important;
+  font-weight: bold;
+  padding-top: 30px !important;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px !important;
+}
+
+.allprojects-info .allproject-info-head h6::after {
+  content: "";
+  position: absolute;
+  left: 610px !important;
+  bottom: 0;
+  height: 3px;
+  width: 8%;
+  background: linear-gradient(
+    90deg,
+    #64d8c8 0%,
+    #64d8c8 60%,
+    rgba(100, 216, 200, 0) 100%
+  );
+  border-radius: 2px;
+}
+
+.allprojects-info .list {
+  width: 100%;
+  height: auto;
+  margin-top: 50px !important;
+  margin-bottom: 30px !important;
+}
+
+.allprojects-info .list ul {
+  display: flex;
+  flex-wrap: nowrap !important;
+  width: 50%;
+  height: auto;
+  list-style-type: none;
+  margin: auto !important;
+  justify-content: space-between;
+}
+
+.allprojects-info .list ul li a {
+  background-color: rgb(52, 68, 70);
+  text-decoration: none !important;
+  padding: 15px !important;
+  display: block !important;
+  border-radius: 25px;
+  color: white !important;
+}
+
+@media (max-width: 767px) {
+  .allprojects-info .allproject-info-head h6::after {
+    content: "";
+    position: absolute;
+    left: 140px !important;
+    bottom: 0;
+    height: 3px;
+    width: 30%;
+    background: linear-gradient(
+      90deg,
+      #64d8c8 0%,
+      #64d8c8 60%,
+      rgba(100, 216, 200, 0) 100%
+    );
+    border-radius: 2px;
+  }
+
+  .allprojects-info .list ul {
+    display: flex;
+    flex-wrap: wrap !important;
+    width: 100%;
+    height: auto;
+    justify-content: space-around !important;
+    /* grid-template-columns: repeat(3, 1fr) !important; */
+  }
+
+  .allprojects-info .list ul li {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .allprojects-info .allproject-info-head h6::after {
+    content: "";
+    position: absolute;
+    left: 340px !important;
+    bottom: 0;
+    height: 3px;
+    width: 15%;
+    background: linear-gradient(
+      90deg,
+      #64d8c8 0%,
+      #64d8c8 60%,
+      rgba(100, 216, 200, 0) 100%
+    );
+    border-radius: 2px;
+  }
+
+  .allprojects-info .list ul {
+    display: flex;
+    flex-wrap: wrap !important;
+    width: 100%;
+    height: auto;
+    justify-content: space-around !important;
+  }
+
+  .allprojects-info .list ul li {
+    margin-bottom: 30px !important;
+  }
+}

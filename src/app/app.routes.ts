@@ -6,6 +6,10 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { HtmlcssComponent } from './components/htmlcss/htmlcss.component';
+import { BootstrapComponent } from './components/bootstrap/bootstrap.component';
+import { JsComponent } from './components/js/js.component';
+import { AngularComponent } from './components/angular/angular.component';
 
 export const routes: Routes = [
   // layout here
@@ -46,7 +50,13 @@ export const routes: Routes = [
       import('./components/allprojects/allprojects.component').then(
         (c) => c.AllprojectsComponent
       ),
-    title: 'allprojects',
+    title: 'allprojects', children:[
+      {path:"" , redirectTo:"html&css" , pathMatch:"full" , title:"html&css project"} ,
+      {path:"html&css" , component:HtmlcssComponent ,title:"html&css project" } ,
+      {path:"bootstrap" , component:BootstrapComponent ,title:"bootstrap project" } ,
+      {path:"js" , component:JsComponent ,title:"js project" } ,
+      {path:"angular" , component:AngularComponent ,title:"angular project" } ,
+    ],
   },
   {
     path: 'contact',
