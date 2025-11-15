@@ -1,0 +1,75 @@
+
+.angular-projects {
+  width: 100%;
+  height: auto;
+  padding-bottom: 35px !important;
+
+}
+
+.angular-projects .project-info {
+  width: 90%;
+  height: auto;
+  border: 1px solid aqua;
+  border-radius: 20px;
+  margin: auto !important;
+  margin-bottom: 25px !important;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.angular-projects .project-info:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 60px rgb(67, 177, 157);
+}
+
+.angular-projects .project-info .project-details h3 {
+  font-size: 25px;
+  color: aqua;
+  padding-top: 20px !important;
+  padding-left: 20px !important;
+  margin-bottom: 15px !important;
+}
+
+
+.angular-projects .project-info .project-details p {
+  font-size: 16px;
+  color: aqua;
+  margin-bottom: 15px !important;
+  padding-left: 20px !important;
+}
+
+.angular-projects .project-info .project-details a {
+  width: 30%;
+  height: auto;
+  margin-left: 30px !important;
+  margin-bottom: 30px !important;
+  padding: 4px !important;
+}
+
+.angular-projects .project-info .project-details .list {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  list-style-type: none ;
+  margin-bottom: 30px !important;
+
+}
+
+.angular-projects .project-info .project-details .list li a {
+  background-color: rgb(67, 177, 157);
+  padding: 12px !important;
+  color: white;
+  border-radius: 100px !important;
+}
+
+.angular-projects .project-info .img-project {
+  /* background-color: red !important; */
+  margin: auto !important;
+}
+.angular-projects .project-info .img-project .img-fluid {
+  width: 100%;
+  margin: auto !important;
+  padding: 10px !important;
+  text-align: center !important;
+  border-radius: 20px !important;
+}
+
