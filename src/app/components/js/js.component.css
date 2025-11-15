@@ -73,3 +73,16 @@
   border-radius: 20px !important;
 }
 
+
+@media (max-width:767px) {
+
+  .bootstrap-projects .project-info .project-details .list  {
+  flex-wrap: wrap !important;
+}
+
+
+.bootstrap-projects .project-info .project-details .list li  {
+  margin-bottom: 30px !important;
+}
+
+}

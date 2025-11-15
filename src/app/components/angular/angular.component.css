@@ -78,8 +78,8 @@
 
 @media (max-width:767px) {
 
-  .angular-projects .project-info .project-details .list li a {
-  margin-bottom: 20px !important;
+  .angular-projects .project-info .project-details .list .li-l  {
+  margin-top: 40px !important;
 }
 
 }
