@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from "./shared/navbar/navbar.component";
 import { FooterComponent } from "./shared/footer/footer.component";
@@ -12,4 +12,20 @@ import { FooterComponent } from "./shared/footer/footer.component";
 })
 export class AppComponent {
   title = 'portfolio-app';
+
+
+   showScroll = false;
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    this.showScroll = window.scrollY > 100;
+  }
+
+  scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
 }

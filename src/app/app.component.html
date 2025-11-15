@@ -2,6 +2,20 @@
 
 <!-- routing layouts here -->
 
+
 <app-navbar></app-navbar>
 <router-outlet></router-outlet>
 <app-footer></app-footer>
+
+
+
+<!-- button scroll top  -->
+@if (showScroll) {
+
+  <button class="scroll-top"  (click)="scrollToTop()" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+</button>
+}
+
+
+
